@@ -2,6 +2,7 @@
 {
     public interface IMessageProvider
     {
+        int GetLuckyNumber();
         string GetMessage();
     }
 }
